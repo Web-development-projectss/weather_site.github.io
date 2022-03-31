@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang='en-us'>
+<head>
+    <title>heather weather</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Normatization -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="fish_heaven_style.css">
+    <script src="java.js"></script> 
+    <script src="fish_information.js"></script> 
+    <script src="fish_events.js"></script>
+    
+    <!-- The links for the google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <div class = 'inside'>
+            <header>
+                <label id="lblGreetings"></label>
+                <p id="demo" class="demo"></p>
+
+                <div class = 'name'>
+                    <div class = "logo">
+                        <img src="images/logo.jpg" alt="logo" class = "logo_image">
+                    </div>
+                    <h1 class="name">The Hottie Weather</h1>
+                    
+                </div>
+
+            <nav>
+                <ul id="navigation"> 
+                    <li><a href="#" class="ham">&#9776;</a></li>
+                    <li class ="home"><a href="/index.html">Home</a></li>
+                    <li class = "preston"> <a href="/preston/preston.html"> Preston</a></li>
+                    <li class = "soda"><a href="/soda_springs/soda_spring.html"> Soda Springs</a></li>
+                    <li class = "fish"><a href="/fish_heaven/fish_heaven.html"> Fish Haven</a></li>
+                    <li class = "storm"><a href="/storm_center/storm.html"> Storm Center</a></li>
+                    <li class = "gallery"><a href="/gallery/gallery.html"> Gallery</a></li>
+                </ul>
+            </nav>  
+            </header>
+            <div class = "content">
+
+                <div class="summary">
+                    <div class="summary-block"></div>
+                    <h3>Weather Summary</h3>
+
+                    <p>Currently: <span id="current"> </span> </p>
+                    <p>High: <span id="temp"> </span>&#8457; </p>
+                    <p>Wind Chill: <span id="chill"> </span></p>
+                    <p>Humidity: <span id="humidity"> </span>%</p>
+                    <p>Wind Speed: <span id="speed"> </span> mph</p>
+                    
+                </div>
+
+                <div class="banner">
+                    <img src="images/beach-banner.jpg" alt="beach-banner" class="banner">
+                </div>
+
+                <div class="information">
+
+
+                    <h2 id="fiveDayheadline">5 Day Forecast</h2>
+                    <ul class="fiveDay">
+                      <li class='fiveForecast'><h3></h3><img><p></p></li>
+                      <li class='fiveForecast'><h3></h3><img><p></p></li>
+                      <li class='fiveForecast'><h3></h3><img><p></p></li>
+                      <li class='fiveForecast'><h3></h3><img><p></p></li>
+                      <li class='fiveForecast'><h3></h3><img><p></p></li>
+                    </ul>
+
+                    <h2>Events</h2>
+                    <p id="events"></p>
+
+
+                    <div class="article">
+                        <div class="article-information">
+                            <h2 class="article-title">A Post Office</h2>
+                            <p class="article-paragraph">The first settlement at Fish Haven was made in 1864. A post office called Fish Haven was established in 1867, and remained in operation until 1962. The community was so named because nearby Bear Lake is a favorite fishing spot.</p>
+                            </div>
+                        <div class="boys">
+                        <img src="images/boys.jpg" alt="boys" class="boys">
+                    </div>
+                    </div>
+                    
+                    <div class="contact">
+                        <div class="map">
+                            <img src="images/map.jpg" alt="map" class="map">
+                        </div>
+                        <div class="contact-information">
+                            <p>The Hottie Weather</p>
+                            <p> 264 S 2nd W</p>
+                            <p>Rexburg, ID 83440</p>
+                            <p>999-999-9999</p>
+                            <p>thehottieweather.gmail.com</p>
+                            
+                            <div class="social">
+                                <img src="images/facebook.jpg" alt="facebook" class="facebook">
+                                <img src="images/instagram.jpg" alt="instagram" class="instagram">
+                                <img src="images/twiter.jpg" alt="twiter" class="twiter">
+                                <img src="images/snapchat.jpg" alt="snapchat" class="snapchat">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p class='legal'> &copy; <span id='copyrightyear'></span> | Eddy O Gonzalez | Guatemala | <a href ='http://www.byui.edu/online'> BYUI Online Learning </a> </p>
+        <p class='highlight'>Last Updated: <span id='lastupdated'></span> </p>
+    </footer>
+
+</body>
+
+</html>
+  
+
